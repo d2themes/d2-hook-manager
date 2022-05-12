@@ -1,0 +1,22 @@
+{
+  "name": "d2/hook-manager",
+  "type": "library",
+  "description": "Add or remove action and filter hooks through configuration.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Craig Simpson",
+      "homepage": "https://github.com/craigsimps",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "D2\\Theme\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.0",
+    "d2/theme": "^0.1.0"
+  }
+}
